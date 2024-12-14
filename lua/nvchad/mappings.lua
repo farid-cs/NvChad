@@ -75,7 +75,8 @@ map(
 )
 
 -- terminal
-map("t", "<C-x>", "<C-\\><C-N>", { desc = "terminal escape terminal mode" })
+map('t',    '<c-j>',        '<c-\\><c-n><c-w>j',        { noremap = true, silent = true })
+map('t',    '<c-k>',        '<c-\\><c-n><c-w>k',        { noremap = true, silent = true })
 
 -- new terminals
 map("n", "<leader>h", function()
