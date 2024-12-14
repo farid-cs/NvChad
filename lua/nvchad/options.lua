@@ -11,10 +11,6 @@ o.cursorline = true
 o.cursorlineopt = "number"
 
 -- Indenting
-opt.fillchars = { eob = " " }
-o.ignorecase = true
-o.smartcase = true
-o.mouse = "a"
 
 -- Numbers
 o.number = true
