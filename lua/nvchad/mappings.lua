@@ -73,6 +73,8 @@ map(
 -- terminal
 map('t',    '<c-j>',        '<c-\\><c-n><c-w>j',        { noremap = true, silent = true })
 map('t',    '<c-k>',        '<c-\\><c-n><c-w>k',        { noremap = true, silent = true })
+map('t',    '<c-h>',        '<c-\\><c-n><c-w>h',        { noremap = true, silent = true })
+map('t',    '<c-l>',        '<c-\\><c-n><c-w>l',        { noremap = true, silent = true })
 
 -- new terminals
 map("n", "<leader>h", function()
