@@ -6,9 +6,9 @@ local g = vim.g
 o.laststatus = 3
 o.showmode = false
 
-o.clipboard = "unnamedplus"
+o.clipboard = 'unnamedplus'
 o.cursorline = true
-o.cursorlineopt = "number"
+o.cursorlineopt = 'number'
 
 -- Indenting
 
@@ -18,9 +18,9 @@ o.numberwidth = 2
 o.ruler = false
 
 -- disable nvim intro
-opt.shortmess:append "sI"
+opt.shortmess:append 'sI'
 
-o.signcolumn = "yes"
+o.signcolumn = 'yes'
 o.splitbelow = true
 o.splitright = true
 o.timeoutlen = 400
@@ -36,7 +36,7 @@ g.loaded_perl_provider = 0
 g.loaded_ruby_provider = 0
 
 -- add binaries installed by mason.nvim to path
-local is_windows = vim.fn.has "win32" ~= 0
-local sep = is_windows and "\\" or "/"
-local delim = is_windows and ";" or ":"
-vim.env.PATH = table.concat({ vim.fn.stdpath "data", "mason", "bin" }, sep) .. delim .. vim.env.PATH
+local is_windows = vim.fn.has 'win32' ~= 0
+local sep = is_windows and '\\' or '/'
+local delim = is_windows and ';' or ':'
+vim.env.PATH = table.concat({ vim.fn.stdpath 'data', 'mason', 'bin' }, sep) .. delim .. vim.env.PATH
