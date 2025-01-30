@@ -9,4 +9,10 @@ M.base46 = {
 	theme = 'gruvbox',
 }
 
+M.ui = {
+	tabufline = {
+		enabled = false,
+	},
+}
+
 return M
